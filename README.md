@@ -9,4 +9,6 @@ I left a config.js file with a "PLACE_YOUR_TOKEN_HERE" placeholder so you can ju
 
 Don't know what a token is? Easy one. Check this URL right here and create yours: https://discordapp.com/developers/applications/me
 
-Anyway, feel free to say anything and ask about anything. Cheers, let's have some fun coding, shall we?
+Anyway, feel free to say anything and ask about anything.
+
+Cheers, let's have some fun coding, shall we?
