@@ -22,8 +22,10 @@ client.Dispatcher.on(Events.MESSAGE_CREATE, e =>{
 });
 
 client.Dispatcher.on(Events.VOICE_CHANNEL_JOIN, e => {
-  guild = client.Guilds.get(e.guildId);
-  channel = guild.textChannels[0];
+  if(config.voiceJoinAnnounce){
+    guild = client.Guilds.get(e.guildId);
+    channel = guild.textChannels[0];
 
-  channel.sendMessage("User " + e.user.username + " joined the " + e.channel.name + " voice channel.", true);
+    channel.sendMessage("User " + e.user.username + " joined the " + e.channel.name + " voice channel.", true);
+  }
 });

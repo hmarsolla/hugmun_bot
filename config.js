@@ -1,5 +1,7 @@
 var config = {};
 
-config.token = "MzEwNjY5MDg4ODkwNTUyMzIx.C_BU2w.jV6gtQHuYkiaaTTbmRBi32zqbfk";
+config.token = "PLACE_YOUR_TOKEN_HERE";
+
+config.voiceJoinAnnounce = false;
 
 module.exports = config;
